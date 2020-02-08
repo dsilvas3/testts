@@ -5,12 +5,6 @@ header{
     margin: 20px;
 }
 
-#info{
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
 #formsection1 {
     text-align: center;
     padding: 10px;
@@ -57,20 +51,16 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 @media (min-width: 1000px){
     #formsection{
-        max-width: 700px;
-        margin-left: 10px;
-        margin-right: 10px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         
     }
     label {
         display: inline-block;
-        margin-left:auto;
-        margin-right:auto;  
+        margin: 13px;
     }
-
-
-
 
 }
 
