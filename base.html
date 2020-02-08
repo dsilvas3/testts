@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lab1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <header><h4> ITMD-4/565/ Lab 1 - Diana Silvas - dsilvas@hawk.iit.edu</h4>   <h1>Sales Tax Calculator</h1>  </header>
+        
+
+        <div id="formsection1">
+
+        <p>Enter Subtotal and Tax Rate and click the Calculate button to show the Sales
+            tax amount and the total. Click the clear button to clear out all form fields. Tax
+            rate should be a percentage but do not enter a % sign in the tax rate box
+        </p>
+            <label>
+                Subtotal:
+                <input type="text" id="subtotal">
+            </label>
+            <br>
+            <label>
+                Tax Rate:
+                <input type="text" id="taxRate">
+            </label>
+            <br>
+            <label>
+                Sales Tax:
+                <input type="text" disabled id="salesTax">
+            </label>
+            <br>
+            <label>
+                Total:
+                <input type="text" disabled id="total">
+            </label>
+            <br>
+            <button id="cal">Calculate Tax and Total</button>
+            <button id="clear">Clear</button>
+        </div>
+
+        <div class="image">
+            <img src="calc.png" alt="calc" height="90" width="90">
+        </div>
+        <footer>&copy; 2020 Diana Silvas | dsilvas@hawk.iit.edu</footer>
+    </body>
+
+
+
+</html>
