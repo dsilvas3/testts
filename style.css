@@ -57,9 +57,9 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 @media (min-width: 1000px){
     #formsection{
-        max-width: 70px;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 700px;
+        margin-left: 10px;
+        margin-right: 10px;
         display: flex;
         
     }
