@@ -61,6 +61,12 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         display: inline-block;
         margin: 13px;
     }
+    
+    input{
+        display: inline-block;
+        text-align: left;
+        
+    }
 
 }
 
