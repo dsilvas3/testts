@@ -49,24 +49,26 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 }
 
-@media (min-width: 1000px){
+@media (min-width: 600px){
     #formsection{
         max-width: 900px;
         margin-left: auto;
         margin-right: auto;
-        display: flex;
+        
         
     }
     label {
         display: inline-block;
         margin: 13px;
     }
-    
+
     input{
         display: inline-block;
         text-align: left;
         
     }
+
+
 
 }
 
