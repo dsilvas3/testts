@@ -13,19 +13,6 @@ header{
     
 }
 
-label { 
-    display: inline-block;
-    margin: 12px;
-    
-    
-}
-
-input{
-    display: inline-block;
-    text-align: left;
-    
-}
-
 footer{
     text-align: center;
     margin: 1px;
@@ -57,8 +44,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         
         
     }
- 
-    
     label {
         display: inline-block;
         margin: 13px;
@@ -71,6 +56,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     }
 
 
-}  
 
+}
 
